@@ -1,28 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog <%= title %></title>
-</head>
+    <%- include('./partials/head.ejs') %>
 <body>
-    <nav>
-        <div class="site-title">
-            <a href="/"><h1>Blog Ninja</h1></a>
-            <p>A net ninja site</p>
-        </div>
-        <ul>
-            <li><a href="/">Quizzes</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blogs/create">New Quiz</a></li>
-        </ul>
-    </nav>
+
+    <%- include('./partials/nav.ejs') %>
 
     <div class="about content">
         <h2>About Us</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia quibusdam quaerat illo a modi tenetur ut blanditiis, illum quo consectetur recusandae excepturi natus impedit rem, tempora cum fuga quae in.</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia quibusdam quaerat illo a modi tenetur ut blanditiis, illum quo consectetur recusandae excepturi natus impedit rem, tempora cum fuga quae in.</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia quibusdam quaerat illo a modi tenetur ut blanditiis, illum quo consectetur recusandae excepturi natus impedit rem, tempora cum fuga quae in.</p>
-      </div>
+    </div>
+    <%- include('./partials/footer.ejs') %>
 </body>
 </html>
