@@ -3,6 +3,8 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const Blog = require('./models/questions');
 
+// last vide https://youtu.be/bxsemcrY4gQ?t=1853
+
 const app = express();
 
 //connecting to database url
